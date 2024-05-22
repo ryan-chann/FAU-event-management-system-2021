@@ -1,6 +1,7 @@
 # FAU Event Management System 2021
 **Author**: Ryan Chan, Mei Li, Jes Mie  
-**Date**: 27/09/2021
+**Date**: 27/09/2021  
+**Project Type**: Prototype  
 
 ## Description
 FAU Event Management System is developed to ease the First Ait Unit Society in TARUC Campus.   
