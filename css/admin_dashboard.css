@@ -1,0 +1,70 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28 Jul 2021, 21:28:05
+    Author     : user-pc
+*/
+
+.dashboard_container{
+    margin-left: 50px;
+}
+
+.user_container, .member_container, .event_container{
+    height: 200px;
+    background-color: white;
+    margin: 10px 70px 20px 30px;
+    font-family:Noto Sans, sans-serif;
+}
+
+h2{
+    font-family:Noto Sans, sans-serif;
+}
+
+h5{
+    color: rgb(207, 148, 112);
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.active_container{
+    margin: 60px 70px 60px 30px;
+    background-color: white;
+    font-family:Noto Sans, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+h1{
+    color: rgb(207, 148, 112);
+    font-size: 22px;
+    text-align: center;
+}
+
+h6{
+    font-size: 28px;
+    color: rgb(207, 148, 112);
+    font-family:Noto Sans, sans-serif;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    color: rgb(207, 148, 112);
+    font-family:Noto Sans, sans-serif;
+}
+
+th, td{
+    border-bottom: 2px solid #ddd; 
+    text-align: left;
+    padding: 10px;
+}
+
+tr:hover{
+    background-color: #ededed;
+}

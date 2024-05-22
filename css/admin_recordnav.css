@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28 Jul 2021, 21:37:51
+    Author     : user-pc
+*/
+
+.record_container{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family:Noto Sans, sans-serif;
+}
+
+h3{
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+th, td{
+    border-bottom: 2px solid #ddd; 
+    text-align: left;
+    padding: 10px;
+}
+
+tr:hover{
+    background-color: #ededed;
+}
+
+.record_nav{
+    height: 50px; 
+    font-family: Noto Sans, sans-serif;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#add, #view, #delete, #edit, #search{
+    cursor: pointer;
+    border: none;
+    margin-left: 50px;
+    color: rgb(207, 148, 112);
+}
+
+#add:hover, #view:hover, #delete:hover, #edit:hover, #search:hover{
+    color: gray;
+}

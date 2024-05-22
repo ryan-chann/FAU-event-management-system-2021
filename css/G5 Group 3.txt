@@ -1,0 +1,9 @@
+- Receipt can be a class to generate the report for this system
+- The implementation of the classes in terms of relevant important attributes,
+constructor, getter setter methods and to string methods to be checked again
+- Class diagrams does not have a flow, so no arrows involved between the classes.
+- Class diagrams involves relationships like aggregation, composition, inheritance etc.
+-Your understanding on inheritance is totally wrong. Please go through the lecture 
+recording again. When implementing inheritance the arrow shows the relationship. Need to write extends
+- Any membership and discounts involved? 
+If yes, you have to reflect membership class.

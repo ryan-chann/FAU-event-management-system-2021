@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20 Jul 2021, 12:09:35 pm
+    Author     : Ryan
+*/
+
+
+@keyframes load{
+    0%{
+        transform: translateX(-100%);
+    }
+    
+    100%{
+        transform: translateX(0);
+    }
+}
+
+
+.load{
+    animation-name: load;
+    animation-timing-function: ease-out;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+

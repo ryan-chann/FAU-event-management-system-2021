@@ -1,0 +1,214 @@
+
+/*-----------------------------------------------------------------*/
+/*  welcome container
+/*-----------------------------------------------------------------*/
+.welcome{
+    text-align: center;
+    padding: 8%;
+    background-image: url('../picture/background/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color:white;
+}
+
+/*-----------------------------------------------------------------*/
+/*  Flexslider 
+/*-----------------------------------------------------------------*/
+.flex-container a:active, .flexslider a:active, .flex-container a:focus, .flexslider a:focus {
+	outline: none;
+}
+
+.slides, .flex-control-nav, .flex-direction-nav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.flexslider {
+	margin: 0;
+	padding: 0;
+}
+
+.flexslider .slides > li {
+	display: none;
+	-webkit-backface-visibility: hidden;
+}
+
+.flexslider .slides img {
+	width: 100%;
+	display: block;
+	height:630px;
+}
+
+.flex-pauseplay span {
+	text-transform: capitalize;
+}
+
+.slides:after {
+	content: "\0020";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+html[xmlns] .slides {
+	display: block;
+}
+
+* html .slides {
+	height: 1%;
+}
+
+.no-js .slides > li:first-child {
+	display: block;
+}
+
+.flex-control-nav {
+	position:absolute;
+	bottom: 20px;
+	text-align:center;
+	width: 100%;
+}
+
+.flex-control-nav li {
+	margin: 0 3px;
+	display: inline-block;
+}
+
+.flex-control-nav li a {
+	width: 30px;
+	height: 5px;
+	background: #FFF;
+	text-indent:-9999px;
+	display:block;
+	opacity: 0.4;
+}
+
+.flex-control-nav li a.flex-active {
+	opacity: 1;
+}
+
+.flex-direction-nav .flex-prev:hover,  .flex-direction-nav .flex-next:hover {
+	opacity: 1;
+}
+
+/*-----------------------------------------------------------------*/
+/*  log in and sign up button
+/*-----------------------------------------------------------------*/
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*Slides for event*/
+* {box-sizing: border-box}
+.slidesEvent {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+

@@ -1,0 +1,29 @@
+/*-----------------------------------------------------------------*/
+/*   event css
+/*-----------------------------------------------------------------*/
+
+.container .btn {
+    margin-bottom: 5%;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 14px 20px;
+    background-color: #ffcc5c;
+    color: black;
+    font-size: 13px;
+    border: none;
+    border-radius: 12px;
+}
+.container .btn:hover{
+    margin-bottom: 5%;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 14px 20px;
+    background-color: #ffeead;
+    color: black;
+    font-size: 13px;
+    border: none;
+    border-radius: 12px;
+}
+h3{
+    text-align: center;
+}

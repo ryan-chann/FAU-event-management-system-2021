@@ -1,0 +1,77 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29 Jul 2021, 23:05:24
+    Author     : user-pc
+*/
+.form_container{
+    margin: 30px 300px 150px 300px;
+    height: 600px;
+    width: 620px;
+    font-family:Noto Sans, sans-serif;
+}
+
+form{
+    background-color: white;
+    padding: 50px 30px 80px 120px;
+    border-radius: 20px;
+    font-family: Noto Sans, sans-serif;
+    height: 600px;
+}
+
+.form_group{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.button_group{
+    margin-top: 20px;
+}
+
+input{
+    width: 400px;
+    height: 40px;
+    font-size: 18px;
+}
+
+#submit, #cancel{
+    width: 100px;
+    height: 35px;
+    margin-left: 10px;
+    font-size: 18px;
+    border: none;
+    color: white;
+}
+
+#submit{
+    background-color: rgb(207, 39, 39);
+}
+
+#cancel{
+    background-color: rgb(230, 149, 106);
+}
+
+#submit:hover{
+    background-color: rgba(207, 39, 39, 0.7);
+}
+
+#cancel:hover{
+    background-color: rgba(230, 149, 106, 0.7);
+}
+
+.profile_title{
+    font-size: 24px;
+}
+
+.alert{
+    font-size: 15px;
+}
+
+.alert{
+    font-family:Trebuchet MS, sans-serif;
+    color: rgb(247, 92, 92);
+    font-size: 16px;
+}

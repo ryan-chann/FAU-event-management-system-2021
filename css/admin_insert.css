@@ -1,0 +1,109 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28 Jul 2021, 23:01:02
+    Author     : user-pc
+*/
+
+.form_container{
+    margin: 10px 300px 150px 300px;
+    height: 700px;
+    width: 620px;
+}
+
+form{
+    background-color: white;
+    padding: 50px 60px 80px 120px;
+    border-radius: 20px;
+    font-family: Noto Sans, sans-serif;
+    height: 600px;
+}
+
+label{
+    font-size: 18px;
+    color: black;
+}
+
+h3{
+    font-size: 24px;
+    margin-left: 90px;
+}
+
+#name, #email, #phone, #qty, #record{
+    width: 380px;
+    font-size: 14px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#event{
+    width: 390px;
+    font-size: 14px;
+}
+
+#submit,#reset{
+    margin-left: 70px;
+    height: 35px;
+    margin-top: 10px;
+    font-size: 18px;
+    width: 100px;
+    border: none;
+    color: white;
+}
+
+#submit{
+    background-color: rgb(207, 39, 39);
+}
+
+#reset{
+    background-color: rgb(230, 149, 106);
+}
+
+#submit:hover{
+    background-color: rgba(207, 39, 39, 0.7);
+}
+
+#reset:hover{
+    background-color: rgba(230, 149, 106, 0.7);
+}
+
+.alert{
+    font-family:Trebuchet MS, sans-serif;
+    color: rgb(247, 92, 92);
+    font-size: 16px;
+    height: 0px;
+}
+
+.record_nav{
+    height: 50px; 
+    font-family: Noto Sans, sans-serif;
+    font-size: 20px;
+}
+
+h3{
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+.header{
+    margin-left: 58px;
+    font-family:Noto Sans, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+#add, #view, #delete, #edit, #search{
+    cursor: pointer;
+    border: none;
+    margin-left: 50px;
+    color: rgb(207, 148, 112);
+}
+
+#add:hover, #view:hover, #delete:hover, #edit:hover, #search:hover{
+    color: gray;
+}

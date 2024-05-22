@@ -1,0 +1,107 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28 Jul 2021, 22:43:10
+    Author     : user-pc
+*/
+
+.form_container{
+    margin: 40px 300px 0px 300px;
+    height: 600px;
+    width: 620px;
+}
+
+form{
+    border-radius: 20px;
+    font-family: Noto Sans, sans-serif;
+}
+
+label{
+    font-size: 18px;
+    color: black;
+}
+
+h3{
+    font-size: 24px;
+    margin-left: 10px;
+    font-family: Noto Sans, sans-serif;
+}
+
+#record{
+    height: 35px;
+    width: 380px;
+    font-size: 20px;
+}
+
+#name{
+    height: 25px;
+}
+
+#submit, #cancel{
+    margin-left: 170px;
+    height: 35px;
+    margin-top: 10px;
+    font-size: 18px;
+    width: 100px;
+    border: none;
+    color: white;
+}
+
+#submit{
+    background-color: rgb(207, 39, 39);
+}
+
+#cancel{
+    background-color: rgb(230, 149, 106);
+}
+
+#submit:hover{
+    background-color: rgba(207, 39, 39, 0.7);
+}
+
+#cancel:hover{
+   background-color: rgba(230, 149, 106, 0.7);
+}
+
+.alert{
+    font-size: 15px;
+    color: rgb(247, 92, 92);
+}
+
+.record_nav{
+    height: 50px; 
+    font-family: Noto Sans, sans-serif;
+    font-size: 20px;
+}
+
+.header{
+    margin-left: 58px;
+    font-family:Noto Sans, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+#add, #view, #delete, #edit, #search{
+    cursor: pointer;
+    border: none;
+    margin-left: 50px;
+    color: rgb(207, 148, 112);
+}
+
+#add:hover, #view:hover, #delete:hover, #edit:hover,  #search:hover{
+    color: gray;
+}
+
+.display_con{
+    text-align: center;
+    margin-top: 20px;  
+    margin-bottom: 20px;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 18px;
+}
+

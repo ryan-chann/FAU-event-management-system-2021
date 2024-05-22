@@ -1,0 +1,32 @@
+/*-----------------------------------------------------------------*/
+/*  ticket css
+/*-----------------------------------------------------------------*/
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../picture/background/background.jpg);
+}
+
+.flex-container > div {
+  background-image: url(../picture/background/background.jpg);
+  width: 98%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+p{
+    font-family: 'Mitr';
+    margin: 2% 3%;
+    text-align: left;
+    padding: 3%;
+    font-size: 25px;
+}
+/*-----------------------------------------------------------------*/
+/*  barcode css
+/*-----------------------------------------------------------------*/
+#barcode{
+    width: 70%;
+    margin: 10% 12%;
+    padding: 4%;
+}

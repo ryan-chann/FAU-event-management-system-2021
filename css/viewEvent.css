@@ -1,0 +1,28 @@
+/*-----------------------------------------------------------------*/
+/*view event css
+/*-----------------------------------------------------------------*/
+.contain p{
+    text-align: justify;
+    padding: 0% 14% 0% 6%;
+    color: white;
+    margin-top: 7%;
+    line-height:30px;
+    font-size:20px;
+}
+
+.container .btn {
+    margin: 5% 0% 5% 7%;
+    padding: 22px 50px;
+    background-color:#ffcc5c;
+    border-radius: 24px;
+    font-size: 17px;
+}
+.container .btn:hover{
+    margin: 5% 0% 5% 7%;
+    padding: 22px 50px;
+    background-color:#ffeead;
+    transition-duration: 0.4s;
+    border-radius: 24px;
+    font-size: 17px;
+
+}

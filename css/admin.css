@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(247, 241, 237);
+    margin: 0px;
+}
+
+.nav_title{
+    font-size: 22px;
+    color: rgb(207, 148, 112);
+    padding-left: 10px;
+    font-family:Trebuchet MS, sans-serif;
+    padding-right: 20px;
+}
+
+/* Side Navigation Bar */
+.sidenav {
+  height: 100vh;
+  width: 95%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow: hidden;
+  padding-top: 10px;
+}
+
+/* Dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(207, 148, 112);
+  font-family:Trebuchet MS, sans-serif;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: grey;
+}
+
+/* For active dropdown button */
+.active {
+  background-color: rgb(247, 231, 220);
+  color: rgb(207, 148, 112);
+  font-family:Trebuchet MS, sans-serif;
+}
+
+/* Dropdown container */
+.dropdown-container {
+  display: none;
+  background-color: rgb(247, 241, 237);
+  padding-left: 8px;
+}

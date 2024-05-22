@@ -1,0 +1,12 @@
+/*-----------------------------------------------------------------*/
+/*ticket result container
+/*-----------------------------------------------------------------*/
+.container h1{
+    color:white;
+    text-align: center;
+}
+.container{
+    border-style: dashed;
+     border-width: 5px;
+}
+
