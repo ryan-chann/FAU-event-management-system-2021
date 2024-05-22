@@ -7,6 +7,7 @@ FAU Event Management System is developed to ease the First Ait Unit Society in T
 This application is programmed with HTML, CSS, Javascript, Bootstrap, and PHP  
   
 The system includes the basic society and event management features:  
+  
 **Administrator**  
   1. Add new event and related activities
   2. Edit existing events and activities
